@@ -1,0 +1,38 @@
+{
+  "name": "memoire-mcp-agent-skills",
+  "version": "1.0.0",
+  "description": "Set up memi MCP and Agent Skills so coding agents start UI work from local design evidence instead of prompts alone.",
+  "category": "connect",
+  "tags": [
+    "mcp",
+    "agent-skills",
+    "codex",
+    "claude-code",
+    "cursor",
+    "opencode",
+    "design-agent"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi/blob/main/server.json",
+    "https://github.com/sarveshsea/memi/tree/main/skills/memoire-design-tooling",
+    "https://www.npmjs.com/package/@memi-design/cli"
+  ],
+  "lastResearchedAt": "2026-07-04T00:00:00.000Z",
+  "freshnessDays": 30,
+  "skills": [
+    {
+      "file": "memoire-mcp-agent-skills.md",
+      "name": "Memoire MCP And Agent Skills",
+      "activateOn": "mcp setup, agent skills install, codex plugin, claude code mcp, cursor mcp, design agent setup",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [
+    "memoire-v2-surface-map"
+  ],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-07-04T00:00:00.000Z",
+  "updatedAt": "2026-07-04T00:00:00.000Z"
+}
