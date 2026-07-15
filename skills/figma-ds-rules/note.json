@@ -1,0 +1,33 @@
+{
+  "name": "figma-ds-rules",
+  "version": "1.0.0",
+  "description": "Generate design system rules for AI agents — encode codebase conventions, token usage, component patterns into CLAUDE.md/AGENTS.md/.cursor rules",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "figma",
+    "design-system",
+    "agent-rules",
+    "conventions",
+    "codegen"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Figma Ds Rules",
+      "activateOn": "design-creation",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=1.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

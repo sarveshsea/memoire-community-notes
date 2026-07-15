@@ -1,0 +1,33 @@
+{
+  "name": "competitive-intel",
+  "version": "1.0.0",
+  "description": "Competitive intelligence and market analysis — systematic frameworks for analyzing competitor products, design patterns, feature matrices, positioning maps, and UX benchmarking",
+  "author": "Sarvesh Chidambaram",
+  "category": "research",
+  "tags": [
+    "competitive-analysis",
+    "market-research",
+    "benchmarking",
+    "ux-audit",
+    "feature-matrix"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Competitive Intel",
+      "activateOn": "research-to-dashboard",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-03-26T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

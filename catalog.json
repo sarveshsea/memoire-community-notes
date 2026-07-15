@@ -1,0 +1,1527 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "skills": [
+    {
+      "name": "accessibility-audit",
+      "displayName": "Accessibility Audit",
+      "description": "WCAG 2.2 compliance auditing — color contrast, keyboard nav, screen reader, focus management, touch targets, cognitive accessibility, motion sensitivity, forms, automated testing integration",
+      "category": "research",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "a11y",
+        "screen-reader",
+        "color-contrast",
+        "keyboard-nav",
+        "aria",
+        "cognitive",
+        "focus-management",
+        "touch-targets",
+        "reduced-motion",
+        "forms"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/accessibility-audit"
+    },
+    {
+      "name": "agent-memory-profiles",
+      "displayName": "Agent Memory Profiles",
+      "description": "Design durable user, project, persona, and task memory profiles for local agents.",
+      "category": "connect",
+      "tags": [
+        "memory",
+        "profiles",
+        "persona",
+        "context",
+        "project"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/agent-memory-profiles"
+    },
+    {
+      "name": "agent-messaging-gateway",
+      "displayName": "Agent Messaging Gateway",
+      "description": "Design gateway-backed agent delivery through chat, email, and team messaging channels.",
+      "category": "connect",
+      "tags": [
+        "gateway",
+        "messaging",
+        "telegram",
+        "discord",
+        "slack"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/agent-messaging-gateway"
+    },
+    {
+      "name": "agent-session-checkpoints",
+      "displayName": "Agent Session Checkpoints",
+      "description": "Capture restartable agent sessions with checkpoints, rollback notes, and resume metadata.",
+      "category": "connect",
+      "tags": [
+        "sessions",
+        "checkpoints",
+        "rollback",
+        "resume",
+        "history"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/agent-session-checkpoints"
+    },
+    {
+      "name": "agent-skill-migration",
+      "displayName": "Agent Skill Migration",
+      "description": "Move skills, memories, context files, and agent rules between Memoire and peer agent ecosystems.",
+      "category": "connect",
+      "tags": [
+        "skills",
+        "migration",
+        "memory",
+        "codex",
+        "claude"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/agent-skill-migration"
+    },
+    {
+      "name": "animation-craft",
+      "displayName": "Animation Craft",
+      "description": "Motion design and micro-interaction craft — timing, easing, UI choreography, and links into the current Remotion/Hyperframes production packs.",
+      "category": "craft",
+      "tags": [
+        "animation",
+        "motion",
+        "framer-motion",
+        "micro-interactions",
+        "transitions",
+        "choreography"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/animation-craft"
+    },
+    {
+      "name": "animation-vocabulary",
+      "displayName": "Animation Vocabulary",
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/animation-vocabulary"
+    },
+    {
+      "name": "apple-design",
+      "displayName": "Apple Design",
+      "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/apple-design"
+    },
+    {
+      "name": "apple-desktop-automation",
+      "displayName": "Apple Desktop Automation",
+      "description": "Prepare macOS agents to work with Apple apps, local files, permissions, and desktop automation.",
+      "category": "connect",
+      "tags": [
+        "macos",
+        "apple",
+        "desktop",
+        "permissions",
+        "automation"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/apple-desktop-automation"
+    },
+    {
+      "name": "approval-sandbox-policies",
+      "displayName": "Approval Sandbox Policies",
+      "description": "Define approval, sandbox, filesystem, and command policy for local autonomous agents.",
+      "category": "connect",
+      "tags": [
+        "approvals",
+        "sandbox",
+        "allowlist",
+        "security",
+        "filesystem"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/approval-sandbox-policies"
+    },
+    {
+      "name": "atomic-design",
+      "displayName": "Atomic Design",
+      "description": "Atomic Design quick reference — levels, composition rules, tokens, naming",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/atomic-design"
+    },
+    {
+      "name": "better-colors",
+      "displayName": "Better Colors",
+      "description": "OKLCH color space for web projects. Convert hex/rgb/hsl to oklch, generate palettes, check contrast, handle gamut boundaries, and theme with Tailwind v4. Triggers on oklch, color conversion, palette generation, contrast ratio, gamut, display p3, design tokens, hue drift, chroma, dark mode colors.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "jakub-krehel",
+      "author": "Jakub Krehel",
+      "license": "MIT",
+      "source": "https://github.com/jakubkrehel/skills",
+      "upstreamCommit": "f8a1574b08319685705a82e3c28139d1c935af9e",
+      "relationship": "adapted",
+      "path": "skills/better-colors"
+    },
+    {
+      "name": "better-typography",
+      "displayName": "Better Typography",
+      "description": "Web typography from choosing fonts to spacing, wrapping and accessibility. Use when picking or pairing typefaces, configuring variable fonts or OpenType features, setting up a type scale, checking heading hierarchy, styling text in components, truncating text, styling underlines, selection, placeholders or carets, or reviewing frontend code for typography. Triggers on typography, fonts, font formats, woff2, variable fonts, font-weight, opentype, font-feature-settings, letter-spacing, line-height, type scale, heading hierarchy, heading levels, tabular numbers, text-wrap, truncation, line clamp, underlines, text-decoration, text selection, iOS input zoom, font smoothing, text contrast, measure, line length, text-box, smart punctuation, drop cap.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "jakub-krehel",
+      "author": "Jakub Krehel",
+      "license": "MIT",
+      "source": "https://github.com/jakubkrehel/skills",
+      "upstreamCommit": "f8a1574b08319685705a82e3c28139d1c935af9e",
+      "relationship": "adapted",
+      "path": "skills/better-typography"
+    },
+    {
+      "name": "better-ui",
+      "displayName": "Better UI",
+      "description": "Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, \"make it feel better\", \"feels off\", stagger animations, border radius, optical alignment, image outlines, box shadows.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "jakub-krehel",
+      "author": "Jakub Krehel",
+      "license": "MIT",
+      "source": "https://github.com/jakubkrehel/skills",
+      "upstreamCommit": "f8a1574b08319685705a82e3c28139d1c935af9e",
+      "relationship": "adapted",
+      "path": "skills/better-ui"
+    },
+    {
+      "name": "browser-research-agent",
+      "displayName": "Browser Research Agent",
+      "description": "Run browser-backed research agents that capture evidence, citations, and source freshness.",
+      "category": "research",
+      "tags": [
+        "browser",
+        "research",
+        "citations",
+        "evidence",
+        "web"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/browser-research-agent"
+    },
+    {
+      "name": "codex-ops",
+      "displayName": "Codex Ops",
+      "description": "Codex and Claude operating workflow for Memoire - JSON-first commands, commit hygiene, review loops, memory capture, and safe autonomous repo operation",
+      "category": "connect",
+      "tags": [
+        "codex",
+        "claude",
+        "json",
+        "git",
+        "review",
+        "memory"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/codex-ops"
+    },
+    {
+      "name": "competitive-intel",
+      "displayName": "Competitive Intel",
+      "description": "Competitive intelligence and market analysis — systematic frameworks for analyzing competitor products, design patterns, feature matrices, positioning maps, and UX benchmarking",
+      "category": "research",
+      "tags": [
+        "competitive-analysis",
+        "market-research",
+        "benchmarking",
+        "ux-audit",
+        "feature-matrix"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/competitive-intel"
+    },
+    {
+      "name": "component-catalog",
+      "displayName": "Component Catalog",
+      "description": "Select and classify interface components when planning a design system, mapping Figma to code, or checking component-library coverage.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/component-catalog"
+    },
+    {
+      "name": "cron-agent-workflows",
+      "displayName": "Cron Agent Workflows",
+      "description": "Turn repeatable agent work into scheduled jobs with explicit outputs and safe permissions.",
+      "category": "connect",
+      "tags": [
+        "cron",
+        "automation",
+        "scheduler",
+        "reports",
+        "monitoring"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/cron-agent-workflows"
+    },
+    {
+      "name": "dashboard-from-research",
+      "displayName": "Dashboard From Research",
+      "description": "Transform research data (Excel, CSV, stickies) into structured insights and interactive dashboards",
+      "category": "research",
+      "tags": [
+        "research",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/dashboard-from-research"
+    },
+    {
+      "name": "data-synthesis",
+      "displayName": "Data Synthesis",
+      "description": "Qualitative and quantitative data synthesis — affinity mapping, thematic analysis, statistical frameworks, insight triangulation, and research-to-spec pipelines",
+      "category": "research",
+      "tags": [
+        "data-synthesis",
+        "qualitative",
+        "quantitative",
+        "thematic-analysis",
+        "affinity-mapping",
+        "insights"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/data-synthesis"
+    },
+    {
+      "name": "design-extract",
+      "displayName": "Design Extract",
+      "description": "Extract a public website's design system when a task needs evidence about its colors, typography, spacing, radii, shadows, components, or Tailwind tokens.",
+      "category": "research",
+      "tags": [
+        "research",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/design-extract"
+    },
+    {
+      "name": "design-sandbox-proof",
+      "displayName": "Design Sandbox Proof",
+      "description": "Use design-sandbox as the public proof repo for memi, MCP, Agent Skills, and interface craft.",
+      "category": "craft",
+      "tags": [
+        "design-sandbox",
+        "proof-repo",
+        "nextjs",
+        "tailwind",
+        "shadcn",
+        "mcp",
+        "agent-skills",
+        "interface-craft"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/design-sandbox-proof"
+    },
+    {
+      "name": "design-system-reference",
+      "displayName": "Design System Reference",
+      "description": "Compare real-world design-system patterns when specifying, auditing, or naming a component and current external references would improve the decision.",
+      "category": "research",
+      "tags": [
+        "research",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/design-system-reference"
+    },
+    {
+      "name": "design-systems",
+      "displayName": "Design Systems",
+      "description": "Design system architecture and governance — token taxonomy, component APIs, versioning strategy, adoption metrics, multi-brand theming, and cross-platform consistency",
+      "category": "craft",
+      "tags": [
+        "design-system",
+        "tokens",
+        "governance",
+        "theming",
+        "component-api",
+        "versioning"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/design-systems"
+    },
+    {
+      "name": "dialkit",
+      "displayName": "Dialkit",
+      "description": "Add or review DialKit controls when a React, Solid, Svelte, or Vue interface needs live tuning of animation, layout, color, typography, or component parameters.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "josh-puckett",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/joshpuckett/dialkit",
+      "upstreamCommit": "533404b1c3e436c6a29bc8ec95b4003e3f256292",
+      "relationship": "original-workflow-from-upstream-docs",
+      "path": "skills/dialkit"
+    },
+    {
+      "name": "docker-environments",
+      "displayName": "Docker Environments",
+      "description": "Docker-aware Mémoire operation — CI/CD headless pipelines, shared MCP server, agent worker containers, and Figma bridge port-forwarding for containerized setups",
+      "category": "connect",
+      "tags": [
+        "docker",
+        "container",
+        "ci-cd",
+        "devcontainer",
+        "mcp",
+        "headless",
+        "multi-agent",
+        "compose"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/docker-environments"
+    },
+    {
+      "name": "emil-design-eng",
+      "displayName": "Emil Design Eng",
+      "description": "Apply Emil Kowalski's design-engineering guidance when polishing interface details, choosing motion, or reviewing whether a product feels responsive and intentional.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/emil-design-eng"
+    },
+    {
+      "name": "figma-audit",
+      "displayName": "Figma Audit",
+      "description": "Audit Figma file for design system consistency, accessibility, token adoption, Code Connect coverage",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-audit"
+    },
+    {
+      "name": "figma-code-connect",
+      "displayName": "Figma Code Connect",
+      "description": "Code Connect workflow — map Figma components to codebase implementations, batch mappings, keep design-code parity",
+      "category": "connect",
+      "tags": [
+        "figma",
+        "code-connect",
+        "component-mapping",
+        "design-system"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-code-connect"
+    },
+    {
+      "name": "figma-create-file",
+      "displayName": "Figma Create File",
+      "description": "Create new Figma design or FigJam files via MCP — resolve plans, scaffold files, prepare for canvas operations",
+      "category": "craft",
+      "tags": [
+        "figma",
+        "file-creation",
+        "figjam",
+        "scaffold"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-create-file"
+    },
+    {
+      "name": "figma-design-systems",
+      "displayName": "Figma Design Systems",
+      "description": "Working with Design Systems in Figma — components, variables, text styles, effect styles, creation and usage patterns",
+      "category": "craft",
+      "tags": [
+        "figma",
+        "design-systems",
+        "variables",
+        "components",
+        "tokens",
+        "styles"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-design-systems"
+    },
+    {
+      "name": "figma-ds-rules",
+      "displayName": "Figma Ds Rules",
+      "description": "Generate design system rules for AI agents — encode codebase conventions, token usage, component patterns into CLAUDE.md/AGENTS.md/.cursor rules",
+      "category": "craft",
+      "tags": [
+        "figma",
+        "design-system",
+        "agent-rules",
+        "conventions",
+        "codegen"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-ds-rules"
+    },
+    {
+      "name": "figma-generate-design",
+      "displayName": "Figma Generate Design",
+      "description": "Create new Figma screens and pages using existing components, variables, and design system",
+      "category": "generate",
+      "tags": [
+        "generate",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-generate-design"
+    },
+    {
+      "name": "figma-generate-library",
+      "displayName": "Figma Generate Library",
+      "description": "Generate Figma component library from React/shadcn codebase with Code Connect parity",
+      "category": "generate",
+      "tags": [
+        "generate",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-generate-library"
+    },
+    {
+      "name": "figma-implement-design",
+      "displayName": "Figma Implement Design",
+      "description": "Figma-to-code implementation — extract design context, map tokens, generate production-ready components with 1:1 visual parity",
+      "category": "generate",
+      "tags": [
+        "figma",
+        "design-to-code",
+        "implementation",
+        "code-connect",
+        "visual-parity"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-implement-design"
+    },
+    {
+      "name": "figma-library-builder",
+      "displayName": "Figma Library Builder",
+      "description": "Figma design system library builder — phased workflow for tokens, components, documentation, with ready-to-use Plugin API scripts",
+      "category": "craft",
+      "tags": [
+        "figma",
+        "library",
+        "design-system",
+        "tokens",
+        "components",
+        "scripts"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-library-builder"
+    },
+    {
+      "name": "figma-plugin-api",
+      "displayName": "Figma Plugin Api",
+      "description": "Figma Plugin API reference — gotchas, patterns, variables, components, text/effect styles, validation and error recovery",
+      "category": "craft",
+      "tags": [
+        "figma",
+        "plugin-api",
+        "reference",
+        "patterns",
+        "gotchas"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-plugin-api"
+    },
+    {
+      "name": "figma-prototype",
+      "displayName": "Figma Prototype",
+      "description": "Build interactive Figma prototypes with flows, transitions, and user journey mapping",
+      "category": "generate",
+      "tags": [
+        "generate",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-prototype"
+    },
+    {
+      "name": "figma-sync",
+      "displayName": "Figma Sync",
+      "description": "Figma sync workflow patterns — bidirectional design-code sync, conflict resolution, incremental updates, multi-file orchestration",
+      "category": "connect",
+      "tags": [
+        "figma",
+        "sync",
+        "design-system",
+        "bidirectional",
+        "incremental"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-sync"
+    },
+    {
+      "name": "figma-use",
+      "displayName": "Figma Use",
+      "description": "Foundational Figma canvas skill — structure, Auto Layout, variables, MCP tools, self-healing loop",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-use"
+    },
+    {
+      "name": "figma-web-capture",
+      "displayName": "Figma Web Capture",
+      "description": "Figma web capture workflow - import live webpages or DOM elements into editable Figma layers with the public html-to-design capture.js bookmarklet",
+      "category": "connect",
+      "tags": [
+        "figma",
+        "html-to-design",
+        "bookmarklet",
+        "web-capture",
+        "editable-layers"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/figma-web-capture"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "displayName": "Find Animation Opportunities",
+      "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/find-animation-opportunities"
+    },
+    {
+      "name": "flutter-gen",
+      "displayName": "Flutter Gen",
+      "description": "Flutter and Dart widget generation — transforms Mémoire component specs into Flutter widgets with Material 3, Riverpod state management, and responsive layouts",
+      "category": "generate",
+      "tags": [
+        "flutter",
+        "dart",
+        "material3",
+        "riverpod",
+        "widgets",
+        "codegen"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/flutter-gen"
+    },
+    {
+      "name": "gateway-ops-observability",
+      "displayName": "Gateway Ops Observability",
+      "description": "Observe and debug local agent gateways, daemons, health probes, logs, and usage costs.",
+      "category": "connect",
+      "tags": [
+        "gateway",
+        "logs",
+        "health",
+        "observability",
+        "daemon"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/gateway-ops-observability"
+    },
+    {
+      "name": "hermes-agent-bridge",
+      "displayName": "Hermes Agent Bridge",
+      "description": "Run Hermes Agent from Memoire with CLI, skills, toolsets, worktree, and session recipes.",
+      "category": "connect",
+      "tags": [
+        "hermes",
+        "cli",
+        "skills",
+        "toolsets",
+        "worktrees"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/hermes-agent-bridge"
+    },
+    {
+      "name": "hyperframes-video",
+      "displayName": "Hyperframes Video",
+      "description": "Current Hyperframes pack for HTML-first motion videos, lintable frames, previews, and render command prep.",
+      "category": "generate",
+      "tags": [
+        "video",
+        "hyperframes",
+        "html",
+        "motion",
+        "rendering"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/hyperframes-video"
+    },
+    {
+      "name": "improve-animations",
+      "displayName": "Improve Animations",
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/improve-animations"
+    },
+    {
+      "name": "interface-craft-gate",
+      "displayName": "Interface Craft Gate",
+      "description": "Make interface craft a required design-agent gate before and after UI changes.",
+      "category": "craft",
+      "tags": [
+        "interface-craft",
+        "visual-design",
+        "ux-audit",
+        "hierarchy",
+        "spacing",
+        "tokens",
+        "screenshots",
+        "design-review"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/interface-craft-gate"
+    },
+    {
+      "name": "interview-research",
+      "displayName": "Interview Research",
+      "description": "User interview and transcript analysis — parsing speaker-labeled transcripts, extracting pain points/goals/behaviors, sentiment analysis, and persona generation from qualitative data",
+      "category": "research",
+      "tags": [
+        "interview",
+        "transcript",
+        "qualitative",
+        "user-research",
+        "sentiment",
+        "persona"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/interview-research"
+    },
+    {
+      "name": "linear-sync",
+      "displayName": "Linear Sync",
+      "description": "Linear integration for Mémoire — sync design issues, component specs, and project tracking between Linear and the Mémoire registry",
+      "category": "connect",
+      "tags": [
+        "linear",
+        "integration",
+        "issues",
+        "tracking",
+        "project-management",
+        "sync"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/linear-sync"
+    },
+    {
+      "name": "mcp-server-studio",
+      "displayName": "MCP Server Studio",
+      "description": "Expose Memoire Studio context, tools, and artifacts to other agents through MCP.",
+      "category": "connect",
+      "tags": [
+        "mcp",
+        "studio",
+        "tools",
+        "resources",
+        "agent"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/mcp-server-studio"
+    },
+    {
+      "name": "memoire-design-tooling",
+      "displayName": "Memoire Design Tooling",
+      "description": "Use when a task involves UI design, interface understanding, interface craft, Figma, design systems, shadcn/ui, Tailwind, UX audits, user research, Atomic Design, component specs, MCP, or design-to-code generation.",
+      "category": "connect",
+      "tags": [
+        "connect",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/memoire-design-tooling"
+    },
+    {
+      "name": "memoire-mcp-agent-skills",
+      "displayName": "Memoire MCP Agent Skills",
+      "description": "Set up memi MCP and Agent Skills before broad frontend changes.",
+      "category": "connect",
+      "tags": [
+        "mcp",
+        "agent-skills",
+        "codex",
+        "claude-code",
+        "cursor",
+        "opencode",
+        "design-agent"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/memoire-mcp-agent-skills"
+    },
+    {
+      "name": "memoire-studio-macos",
+      "displayName": "Memoire Studio Macos",
+      "description": "Connect the Tauri/Rust macOS Studio app to the CLI, MCP, receipts, and project artifacts.",
+      "category": "connect",
+      "tags": [
+        "macos",
+        "tauri",
+        "rust",
+        "studio",
+        "codex",
+        "claude-code",
+        "receipts"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/memoire-studio-macos"
+    },
+    {
+      "name": "memoire-v2-surface-map",
+      "displayName": "Memoire V2 Surface Map",
+      "description": "Connect the memi v2 public surfaces before publishing, onboarding agents, or writing docs.",
+      "category": "connect",
+      "tags": [
+        "memi",
+        "surface-map",
+        "npm",
+        "mcp",
+        "agent-skills",
+        "macos",
+        "sandbox",
+        "community-notes"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/memoire-v2-surface-map"
+    },
+    {
+      "name": "mermaid-jam",
+      "displayName": "Mermaid Jam",
+      "description": "Route Mermaid and markdown diagram source into the Mermaid Jam FigJam plugin for editable native FigJam output",
+      "category": "connect",
+      "tags": [
+        "figjam",
+        "mermaid",
+        "markdown",
+        "diagram",
+        "user-flow"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/mermaid-jam"
+    },
+    {
+      "name": "mobile-craft",
+      "displayName": "Mobile Craft",
+      "description": "Mobile-first design mastery — touch targets, gesture patterns, responsive breakpoints, native-feel animations, thumb zones, platform conventions (iOS/Android), and progressive enhancement strategies",
+      "category": "craft",
+      "tags": [
+        "mobile",
+        "responsive",
+        "touch",
+        "ios",
+        "android",
+        "gestures",
+        "progressive-enhancement"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/mobile-craft"
+    },
+    {
+      "name": "model-router-diagnostics",
+      "displayName": "Model Router Diagnostics",
+      "description": "Diagnose provider auth, model routing, quota windows, and fallback behavior before agent runs.",
+      "category": "connect",
+      "tags": [
+        "models",
+        "providers",
+        "auth",
+        "routing",
+        "diagnostics"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/model-router-diagnostics"
+    },
+    {
+      "name": "motion-performance",
+      "displayName": "Motion Performance",
+      "description": "Motion performance pack for 60fps UI animation, reduced-motion fallbacks, render budget checks, and video export QA.",
+      "category": "craft",
+      "tags": [
+        "motion",
+        "performance",
+        "accessibility",
+        "video",
+        "qa"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/motion-performance"
+    },
+    {
+      "name": "motion-video",
+      "displayName": "Motion Video",
+      "description": "Product animation, UI motion, portfolio videos — Apple-grade reveals, motion tokens, full production pipelines",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/motion-video"
+    },
+    {
+      "name": "multi-agent",
+      "displayName": "Multi Agent",
+      "description": "Orchestrate multiple Claude instances on Figma canvas with box widgets, coordinated handoffs, error recovery",
+      "category": "connect",
+      "tags": [
+        "connect",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/multi-agent"
+    },
+    {
+      "name": "multi-agent-kanban",
+      "displayName": "Multi Agent Kanban",
+      "description": "Coordinate multiple local agents through a durable board with owner, state, and evidence fields.",
+      "category": "connect",
+      "tags": [
+        "multi-agent",
+        "kanban",
+        "coordination",
+        "sessions",
+        "handoff"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/multi-agent-kanban"
+    },
+    {
+      "name": "notion-sync",
+      "displayName": "Notion Sync",
+      "description": "Notion integration for Mémoire — sync research insights, specs, and project context between Notion databases and the Mémoire registry",
+      "category": "connect",
+      "tags": [
+        "notion",
+        "integration",
+        "sync",
+        "research",
+        "specs",
+        "database"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/notion-sync"
+    },
+    {
+      "name": "openclaw-agent-bridge",
+      "displayName": "Openclaw Agent Bridge",
+      "description": "Connect Memoire to OpenClaw onboarding, agents, gateway health, MCP, and approval flows.",
+      "category": "connect",
+      "tags": [
+        "openclaw",
+        "gateway",
+        "agents",
+        "mcp",
+        "approvals"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/openclaw-agent-bridge"
+    },
+    {
+      "name": "react-native-gen",
+      "displayName": "React Native Gen",
+      "description": "React Native code generation from Memoire specs — NativeWind styling, Expo-compatible, platform-specific patterns",
+      "category": "generate",
+      "tags": [
+        "react-native",
+        "nativewind",
+        "expo",
+        "mobile",
+        "ios",
+        "android"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/react-native-gen"
+    },
+    {
+      "name": "remotion-video",
+      "displayName": "Remotion Video",
+      "description": "Current Remotion video production pack for React-based product videos, previews, and renderer handoff.",
+      "category": "generate",
+      "tags": [
+        "video",
+        "remotion",
+        "react",
+        "motion",
+        "renderer"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/remotion-video"
+    },
+    {
+      "name": "review-animations",
+      "displayName": "Review Animations",
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "emil-kowalski",
+      "author": "Emil Kowalski",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills",
+      "upstreamCommit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "relationship": "adapted",
+      "path": "skills/review-animations"
+    },
+    {
+      "name": "secure-secrets-for-agents",
+      "displayName": "Secure Secrets For Agents",
+      "description": "Handle agent credentials with env refs, redaction, least privilege, and non-leaking prompts.",
+      "category": "connect",
+      "tags": [
+        "secrets",
+        "redaction",
+        "env",
+        "security",
+        "credentials"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/secure-secrets-for-agents"
+    },
+    {
+      "name": "self-improving-agent",
+      "displayName": "Self Improving Agent",
+      "description": "Closed-loop learning system — captures errors, corrections, and discoveries into structured logs, promotes recurring patterns to project memory, and extracts reusable skills",
+      "category": "connect",
+      "tags": [
+        "learning",
+        "self-improvement",
+        "error-tracking",
+        "knowledge-management"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/self-improving-agent"
+    },
+    {
+      "name": "superpower",
+      "displayName": "Superpower",
+      "description": "Default autonomous superagent mode — read designs, drive canvas, orchestrate agents, generate specs and code",
+      "category": "connect",
+      "tags": [
+        "connect",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/superpower"
+    },
+    {
+      "name": "survey-connect",
+      "displayName": "Survey Connect",
+      "description": "Survey platform integration — import responses from Typeform, Google Forms, SurveyMonkey, Airtable, and CSV exports into Mémoire's research pipeline",
+      "category": "connect",
+      "tags": [
+        "survey",
+        "typeform",
+        "google-forms",
+        "airtable",
+        "csv",
+        "import"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/survey-connect"
+    },
+    {
+      "name": "token-architecture",
+      "displayName": "Token Architecture",
+      "description": "Design token architecture — multi-tier token systems, semantic naming, theme switching, CSS custom properties, Tailwind mapping, and Figma variable sync",
+      "category": "craft",
+      "tags": [
+        "design-tokens",
+        "theming",
+        "css-variables",
+        "tailwind",
+        "figma-variables",
+        "semantic-tokens"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/token-architecture"
+    },
+    {
+      "name": "usability-testing",
+      "displayName": "Usability Testing",
+      "description": "Usability testing frameworks — test planning, task scenarios, moderated and unmoderated protocols, analysis frameworks, and insight synthesis for Mémoire research pipeline",
+      "category": "research",
+      "tags": [
+        "usability",
+        "testing",
+        "ux-research",
+        "task-analysis",
+        "think-aloud",
+        "insights"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/usability-testing"
+    },
+    {
+      "name": "ux-tenets-traps",
+      "displayName": "UX Tenets Traps",
+      "description": "UX tenets and traps framework for code, Figma, screenshot, and Studio critique workflows.",
+      "category": "craft",
+      "tags": [
+        "craft",
+        "design-skills"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/ux-tenets-traps"
+    },
+    {
+      "name": "vue-gen",
+      "displayName": "Vue Gen",
+      "description": "Vue 3 Composition API code generation — transforms Mémoire component specs into Vue SFCs with script setup, Tailwind styling, and composable patterns",
+      "category": "generate",
+      "tags": [
+        "vue",
+        "vue3",
+        "composition-api",
+        "sfc",
+        "tailwind",
+        "codegen"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/vue-gen"
+    },
+    {
+      "name": "web-research",
+      "displayName": "Web Research",
+      "description": "Structured web research — topic exploration, content fetching, finding extraction, cross-source validation, and gap analysis for design research",
+      "category": "research",
+      "tags": [
+        "web-research",
+        "content-analysis",
+        "competitive",
+        "market-research",
+        "trends"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/web-research"
+    },
+    {
+      "name": "website-to-video",
+      "displayName": "Website To Video",
+      "description": "Website-to-video capture pack for turning product pages, flows, and browser states into structured video scenes.",
+      "category": "generate",
+      "tags": [
+        "video",
+        "website-capture",
+        "browser",
+        "product-demo"
+      ],
+      "origin": "memoire",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/memi",
+      "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "relationship": "first-party",
+      "path": "skills/website-to-video"
+    }
+  ]
+}

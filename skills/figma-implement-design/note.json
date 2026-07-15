@@ -1,0 +1,33 @@
+{
+  "name": "figma-implement-design",
+  "version": "1.0.0",
+  "description": "Figma-to-code implementation — extract design context, map tokens, generate production-ready components with 1:1 visual parity",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "figma",
+    "design-to-code",
+    "implementation",
+    "code-connect",
+    "visual-parity"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Figma Implement Design",
+      "activateOn": "component-creation",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=1.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

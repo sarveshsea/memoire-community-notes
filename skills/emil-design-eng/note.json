@@ -1,0 +1,30 @@
+{
+  "name": "emil-design-eng",
+  "version": "1.0.0",
+  "description": "Apply Emil Kowalski's design-engineering guidance when polishing interface details, choosing motion, or reviewing whether a product feels responsive and intentional.",
+  "author": "Emil Kowalski",
+  "category": "craft",
+  "tags": [
+    "craft",
+    "design-skills"
+  ],
+  "sourceUrls": [
+    "https://github.com/emilkowalski/skills"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Emil Design Eng",
+      "activateOn": "Apply Emil Kowalski's design-engineering guidance when polishing interface details, choosing motion, or reviewing whether a product feels responsive and intentional.",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-07-15T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

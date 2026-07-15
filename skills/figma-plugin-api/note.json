@@ -1,0 +1,33 @@
+{
+  "name": "figma-plugin-api",
+  "version": "1.0.0",
+  "description": "Figma Plugin API reference — gotchas, patterns, variables, components, text/effect styles, validation and error recovery",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "figma",
+    "plugin-api",
+    "reference",
+    "patterns",
+    "gotchas"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Figma Plugin Api",
+      "activateOn": "figma-canvas-operation",
+      "freedomLevel": "reference"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=1.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}
