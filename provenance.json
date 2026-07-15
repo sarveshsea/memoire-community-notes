@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "memoire": {
+      "author": "Sarvesh Chidambaram",
+      "repository": "https://github.com/sarveshsea/memi",
+      "commit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "relationship": "first-party",
+      "skills": [
+        "accessibility-audit",
+        "agent-memory-profiles",
+        "agent-messaging-gateway",
+        "agent-session-checkpoints",
+        "agent-skill-migration",
+        "animation-craft",
+        "apple-desktop-automation",
+        "approval-sandbox-policies",
+        "atomic-design",
+        "browser-research-agent",
+        "codex-ops",
+        "competitive-intel",
+        "component-catalog",
+        "cron-agent-workflows",
+        "dashboard-from-research",
+        "data-synthesis",
+        "design-extract",
+        "design-sandbox-proof",
+        "design-system-reference",
+        "design-systems",
+        "docker-environments",
+        "figma-audit",
+        "figma-code-connect",
+        "figma-create-file",
+        "figma-design-systems",
+        "figma-ds-rules",
+        "figma-generate-design",
+        "figma-generate-library",
+        "figma-implement-design",
+        "figma-library-builder",
+        "figma-plugin-api",
+        "figma-prototype",
+        "figma-sync",
+        "figma-use",
+        "figma-web-capture",
+        "flutter-gen",
+        "gateway-ops-observability",
+        "hermes-agent-bridge",
+        "hyperframes-video",
+        "interface-craft-gate",
+        "interview-research",
+        "linear-sync",
+        "mcp-server-studio",
+        "memoire-design-tooling",
+        "memoire-mcp-agent-skills",
+        "memoire-studio-macos",
+        "memoire-v2-surface-map",
+        "mermaid-jam",
+        "mobile-craft",
+        "model-router-diagnostics",
+        "motion-performance",
+        "motion-video",
+        "multi-agent",
+        "multi-agent-kanban",
+        "notion-sync",
+        "openclaw-agent-bridge",
+        "react-native-gen",
+        "remotion-video",
+        "secure-secrets-for-agents",
+        "self-improving-agent",
+        "superpower",
+        "survey-connect",
+        "token-architecture",
+        "usability-testing",
+        "ux-tenets-traps",
+        "vue-gen",
+        "web-research",
+        "website-to-video"
+      ]
+    },
+    "jakub-krehel": {
+      "author": "Jakub Krehel",
+      "repository": "https://github.com/jakubkrehel/skills",
+      "commit": "f8a1574b08319685705a82e3c28139d1c935af9e",
+      "license": "MIT",
+      "licenseFile": "LICENSES/Jakub-Krehel-MIT.txt",
+      "relationship": "adapted",
+      "skills": [
+        "better-colors",
+        "better-typography",
+        "better-ui"
+      ]
+    },
+    "emil-kowalski": {
+      "author": "Emil Kowalski",
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "6bf24434f7730ad169077756cf9c7cd7bd675fc6",
+      "license": "MIT",
+      "licenseFile": "LICENSES/Emil-Kowalski-MIT.txt",
+      "relationship": "adapted",
+      "skills": [
+        "animation-vocabulary",
+        "apple-design",
+        "emil-design-eng",
+        "find-animation-opportunities",
+        "improve-animations",
+        "review-animations"
+      ]
+    },
+    "josh-puckett": {
+      "author": "Sarvesh Chidambaram",
+      "repository": "https://github.com/joshpuckett/dialkit",
+      "commit": "533404b1c3e436c6a29bc8ec95b4003e3f256292",
+      "license": "MIT",
+      "licenseFile": "LICENSES/Josh-Puckett-DialKit-MIT.txt",
+      "relationship": "original-workflow-from-upstream-docs",
+      "skills": [
+        "dialkit"
+      ],
+      "upstreamAuthor": "Josh Puckett"
+    }
+  },
+  "excludedSources": [
+    {
+      "name": "Interface Craft",
+      "url": "https://interfacecraft.dev/",
+      "reason": "Paid copyrighted curriculum with no public redistribution license. Link only; do not copy or closely paraphrase member content."
+    }
+  ]
+}

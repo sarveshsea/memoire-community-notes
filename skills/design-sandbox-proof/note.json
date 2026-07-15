@@ -1,0 +1,41 @@
+{
+  "name": "design-sandbox-proof",
+  "version": "2.0.0",
+  "description": "Use design-sandbox as the public proof repo for memi, MCP, Agent Skills, and interface craft.",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "design-sandbox",
+    "proof-repo",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "mcp",
+    "agent-skills",
+    "interface-craft"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/design-sandbox",
+    "https://github.com/sarveshsea/memi",
+    "https://www.npmjs.com/package/@memi-design/cli"
+  ],
+  "lastResearchedAt": "2026-07-04T00:00:00.000Z",
+  "freshnessDays": 30,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Design Sandbox Proof",
+      "activateOn": "design sandbox, proof repo, memi verify, sandbox setup, public demo",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [
+    "memoire-v2-surface-map",
+    "interface-craft-gate"
+  ],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-07-04T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "linear-sync",
+  "version": "1.0.0",
+  "description": "Linear integration for Mémoire — sync design issues, component specs, and project tracking between Linear and the Mémoire registry",
+  "author": "Sarvesh Chidambaram",
+  "category": "connect",
+  "tags": [
+    "linear",
+    "integration",
+    "issues",
+    "tracking",
+    "project-management",
+    "sync"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Linear Sync",
+      "activateOn": "always",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

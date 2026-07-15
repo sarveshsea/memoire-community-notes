@@ -1,0 +1,32 @@
+{
+  "name": "figma-code-connect",
+  "version": "1.0.0",
+  "description": "Code Connect workflow — map Figma components to codebase implementations, batch mappings, keep design-code parity",
+  "author": "Sarvesh Chidambaram",
+  "category": "connect",
+  "tags": [
+    "figma",
+    "code-connect",
+    "component-mapping",
+    "design-system"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Figma Code Connect",
+      "activateOn": "figma-canvas-operation",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=1.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

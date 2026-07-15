@@ -1,0 +1,30 @@
+{
+  "name": "component-catalog",
+  "version": "1.0.0",
+  "description": "Select and classify interface components when planning a design system, mapping Figma to code, or checking component-library coverage.",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "craft",
+    "design-skills"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Component Catalog",
+      "activateOn": "Select and classify interface components when planning a design system, mapping Figma to code, or checking component-library coverage.",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-07-15T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

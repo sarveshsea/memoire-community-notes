@@ -1,0 +1,19 @@
+{
+  "name": "@memoire/design-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated, installable design skills for AI coding agents.",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-catalog.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm run sync && npm run test && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "skills": "1.5.17"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "memoire-v2-surface-map",
+  "version": "2.0.0",
+  "description": "Connect the memi v2 public surfaces before publishing, onboarding agents, or writing docs.",
+  "author": "Sarvesh Chidambaram",
+  "category": "connect",
+  "tags": [
+    "memi",
+    "surface-map",
+    "npm",
+    "mcp",
+    "agent-skills",
+    "macos",
+    "sandbox",
+    "community-notes"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi",
+    "https://www.npmjs.com/package/@memi-design/cli",
+    "https://github.com/sarveshsea/memi-studio",
+    "https://github.com/sarveshsea/design-sandbox",
+    "https://github.com/sarveshsea/design-skills"
+  ],
+  "lastResearchedAt": "2026-07-04T00:00:00.000Z",
+  "freshnessDays": 30,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Memoire V2 Surface Map",
+      "activateOn": "memi setup, memoire surface map, package launch, distribution links, agent ecosystem",
+      "freedomLevel": "read-only"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-07-04T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}

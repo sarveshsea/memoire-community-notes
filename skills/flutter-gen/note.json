@@ -1,0 +1,34 @@
+{
+  "name": "flutter-gen",
+  "version": "1.0.0",
+  "description": "Flutter and Dart widget generation — transforms Mémoire component specs into Flutter widgets with Material 3, Riverpod state management, and responsive layouts",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "flutter",
+    "dart",
+    "material3",
+    "riverpod",
+    "widgets",
+    "codegen"
+  ],
+  "sourceUrls": [
+    "https://github.com/sarveshsea/memi"
+  ],
+  "lastResearchedAt": "2026-07-15T00:00:00.000Z",
+  "freshnessDays": 90,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Flutter Gen",
+      "activateOn": "component-creation",
+      "freedomLevel": "high"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.0.0"
+  },
+  "createdAt": "2026-03-28T00:00:00.000Z",
+  "updatedAt": "2026-07-15T00:00:00.000Z"
+}
