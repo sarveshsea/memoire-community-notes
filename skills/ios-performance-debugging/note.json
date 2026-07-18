@@ -1,0 +1,39 @@
+{
+  "name": "ios-performance-debugging",
+  "version": "1.0.0",
+  "description": "Diagnose SwiftUI rendering, launch, responsiveness, concurrency, memory, energy, and simulator failures using reproducible traces and before-after evidence.",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "ios",
+    "swiftui",
+    "instruments",
+    "performance",
+    "memory",
+    "debugging"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/xcode/understanding-and-improving-swiftui-performance",
+    "https://developer.apple.com/documentation/technologyoverviews/testing-and-performance",
+    "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 45,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "iOS Performance Debugging",
+      "activateOn": "ios-performance-debugging",
+      "freedomLevel": "low"
+    }
+  ],
+  "dependencies": [
+    "swiftui-design-engineering",
+    "xcode-build-reliability"
+  ],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

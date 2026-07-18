@@ -1,6 +1,6 @@
 {
   "name": "mobile-craft",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Mobile-first design mastery — touch targets, gesture patterns, responsive breakpoints, native-feel animations, thumb zones, platform conventions (iOS/Android), and progressive enhancement strategies",
   "author": "Sarvesh Chidambaram",
   "category": "craft",
@@ -14,7 +14,8 @@
     "progressive-enhancement"
   ],
   "sourceUrls": [
-    "https://github.com/sarveshsea/memi"
+    "https://github.com/sarveshsea/memi",
+    "https://developer.apple.com/design/human-interface-guidelines/"
   ],
   "lastResearchedAt": "2026-07-15T00:00:00.000Z",
   "freshnessDays": 90,
@@ -31,5 +32,5 @@
     "memoire": ">=2.0.0"
   },
   "createdAt": "2026-03-26T00:00:00.000Z",
-  "updatedAt": "2026-07-15T00:00:00.000Z"
+  "updatedAt": "2026-07-17T00:00:00.000Z"
 }

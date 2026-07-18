@@ -1,6 +1,6 @@
 {
   "name": "apple-design",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
   "author": "Emil Kowalski",
   "category": "craft",
@@ -9,7 +9,8 @@
     "design-skills"
   ],
   "sourceUrls": [
-    "https://github.com/emilkowalski/skills"
+    "https://github.com/emilkowalski/skills",
+    "https://developer.apple.com/design/human-interface-guidelines/"
   ],
   "lastResearchedAt": "2026-07-15T00:00:00.000Z",
   "freshnessDays": 90,
@@ -26,5 +27,5 @@
     "memoire": ">=2.0.0"
   },
   "createdAt": "2026-07-15T00:00:00.000Z",
-  "updatedAt": "2026-07-15T00:00:00.000Z"
+  "updatedAt": "2026-07-17T00:00:00.000Z"
 }

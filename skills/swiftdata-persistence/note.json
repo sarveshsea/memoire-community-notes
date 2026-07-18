@@ -1,0 +1,37 @@
+{
+  "name": "swiftdata-persistence",
+  "version": "1.0.0",
+  "description": "Design and review SwiftData schemas, queries, migrations, isolation, CloudKit assumptions, offline behavior, and deterministic persistence tests.",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "swiftdata",
+    "persistence",
+    "migration",
+    "cloudkit",
+    "schema",
+    "offline"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/swiftdata",
+    "https://developer.apple.com/documentation/updates/swiftdata"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 45,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "SwiftData Persistence",
+      "activateOn": "swiftdata-persistence",
+      "freedomLevel": "medium"
+    }
+  ],
+  "dependencies": [
+    "swift-concurrency-safety"
+  ],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ios-swift",
+  "title": "iOS and Swift",
+  "description": "Design, build, test, profile, and ship current SwiftUI applications with agent-verifiable workflows.",
+  "visibility": "public",
+  "defaultInstall": false,
+  "include": [
+    "ios-app-intents",
+    "ios-performance-debugging",
+    "swift-concurrency-safety",
+    "swift-testing",
+    "swiftdata-persistence",
+    "swiftui-design-engineering",
+    "swiftui-liquid-glass",
+    "xcode-build-reliability"
+  ],
+  "dependencyPolicy": "include-required"
+}

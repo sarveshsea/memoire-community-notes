@@ -1,0 +1,38 @@
+{
+  "name": "swiftui-liquid-glass",
+  "version": "1.0.0",
+  "description": "Adopt or audit iOS 26+ SwiftUI Liquid Glass with native APIs, correct availability fallbacks, restrained hierarchy, accessibility, and measured rendering performance.",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "swiftui",
+    "liquid-glass",
+    "ios-26",
+    "materials",
+    "accessibility",
+    "performance"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/swiftui/glasseffectcontainer",
+    "https://developer.apple.com/documentation/technologyoverviews/adopting-liquid-glass",
+    "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/swiftui-liquid-glass"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 30,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "SwiftUI Liquid Glass",
+      "activateOn": "swiftui-liquid-glass",
+      "freedomLevel": "medium"
+    }
+  ],
+  "dependencies": [
+    "swiftui-design-engineering"
+  ],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

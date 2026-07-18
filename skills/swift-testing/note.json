@@ -1,0 +1,36 @@
+{
+  "name": "swift-testing",
+  "version": "1.0.0",
+  "description": "Build an Apple-platform test strategy with Swift Testing for unit and integration coverage, XCTest for UI automation, deterministic fixtures, and concise agent-readable results.",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "swift",
+    "testing",
+    "xctest",
+    "xcuitest",
+    "parameterized-tests",
+    "test-plan"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/xcode/testing",
+    "https://developer.apple.com/documentation/testing",
+    "https://www.swift.org/documentation/"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 60,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Swift Testing",
+      "activateOn": "swift-testing",
+      "freedomLevel": "medium"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

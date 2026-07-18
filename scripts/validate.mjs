@@ -28,6 +28,7 @@ const CAPABILITIES = new Set([
   "memoire.mcp",
   "notion.api",
   "remotion.render",
+  "xcode.cli",
 ]);
 const WRITE_CAPABILITIES = new Set(["docker.runtime", "figma.write", "hyperframes.render", "linear.api", "memoire.mcp", "notion.api", "remotion.render"]);
 

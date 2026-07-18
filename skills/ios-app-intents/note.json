@@ -1,0 +1,38 @@
+{
+  "name": "ios-app-intents",
+  "version": "1.0.0",
+  "description": "Design, implement, and verify App Intents, App Entities, App Shortcuts, widgets, Siri, Spotlight, and Apple Intelligence surfaces with stable identity and safe execution.",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "ios",
+    "app-intents",
+    "shortcuts",
+    "siri",
+    "widgets",
+    "spotlight"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/appintents",
+    "https://developer.apple.com/documentation/updates/appintents",
+    "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/ios-app-intents"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 45,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "iOS App Intents",
+      "activateOn": "ios-app-intents",
+      "freedomLevel": "low"
+    }
+  ],
+  "dependencies": [
+    "swift-concurrency-safety"
+  ],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

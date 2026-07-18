@@ -1,0 +1,37 @@
+{
+  "name": "swiftui-design-engineering",
+  "version": "1.0.0",
+  "description": "Design, build, refactor, and review production SwiftUI interfaces with explicit state ownership, navigation, accessibility, design tokens, previews, and simulator verification.",
+  "author": "Sarvesh Chidambaram",
+  "category": "craft",
+  "tags": [
+    "swiftui",
+    "ios",
+    "design-system",
+    "accessibility",
+    "navigation",
+    "state"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/swiftui",
+    "https://developer.apple.com/design/human-interface-guidelines/",
+    "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/swiftui-ui-patterns",
+    "https://github.com/twostraws/swiftui-agent-skill"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 45,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "SwiftUI Design Engineering",
+      "activateOn": "swiftui-design-engineering",
+      "freedomLevel": "medium"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

@@ -538,18 +538,22 @@
         "fallback": "Use user-supplied artifacts and document any unavailable verification."
       },
       "dependencies": [],
-      "related": [],
+      "related": [
+        "swiftui-design-engineering",
+        "swiftui-liquid-glass"
+      ],
       "collectionIds": [
         "product-design"
       ],
       "legacyCategory": "craft",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "tags": [
         "craft",
         "design-skills"
       ],
       "sourceUrls": [
-        "https://github.com/emilkowalski/skills"
+        "https://github.com/emilkowalski/skills",
+        "https://developer.apple.com/design/human-interface-guidelines/"
       ],
       "lastResearchedAt": "2026-07-15T00:00:00.000Z",
       "freshnessDays": 90,
@@ -557,7 +561,7 @@
         "memoire": ">=2.0.0"
       },
       "createdAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
       "freedomLevel": "medium"
     },
     {
@@ -3877,7 +3881,9 @@
         "create"
       ],
       "surfaces": [
-        "web"
+        "web",
+        "ios",
+        "android"
       ],
       "maturity": "stable",
       "visibility": "public",
@@ -3896,12 +3902,16 @@
         "fallback": "Use user-supplied artifacts and document any unavailable verification."
       },
       "dependencies": [],
-      "related": [],
+      "related": [
+        "swiftui-design-engineering",
+        "react-native-gen",
+        "flutter-gen"
+      ],
       "collectionIds": [
         "product-design"
       ],
       "legacyCategory": "craft",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "tags": [
         "mobile",
         "responsive",
@@ -3912,7 +3922,8 @@
         "progressive-enhancement"
       ],
       "sourceUrls": [
-        "https://github.com/sarveshsea/memi"
+        "https://github.com/sarveshsea/memi",
+        "https://developer.apple.com/design/human-interface-guidelines/"
       ],
       "lastResearchedAt": "2026-07-15T00:00:00.000Z",
       "freshnessDays": 90,
@@ -3920,7 +3931,7 @@
         "memoire": ">=2.0.0"
       },
       "createdAt": "2026-03-26T00:00:00.000Z",
-      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
       "freedomLevel": "medium"
     },
     {
@@ -5196,6 +5207,326 @@
       },
       "createdAt": "2026-05-07T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
+      "freedomLevel": "low"
+    },
+    {
+      "name": "ios-app-intents",
+      "displayName": "iOS App Intents",
+      "type": "workflow",
+      "domains": ["implementation", "interaction", "accessibility"],
+      "lifecycle": ["define", "deliver", "validate"],
+      "actions": ["create", "integrate", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["ios-app-intents"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Produce the intent contract and verification commands, then mark simulator and system-surface proof unavailable."
+      },
+      "dependencies": ["swift-concurrency-safety"],
+      "related": ["swiftui-design-engineering", "swift-testing"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "generate",
+      "version": "1.0.0",
+      "tags": ["ios", "app-intents", "shortcuts", "siri", "widgets", "spotlight"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/appintents",
+        "https://developer.apple.com/documentation/updates/appintents",
+        "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/ios-app-intents"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 45,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "low"
+    },
+    {
+      "name": "ios-performance-debugging",
+      "displayName": "iOS Performance Debugging",
+      "type": "workflow",
+      "domains": ["implementation", "systems"],
+      "lifecycle": ["validate", "measure"],
+      "actions": ["analyze", "audit"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["ios-performance-debugging"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "capability-gated",
+        "requires": ["xcode.cli"],
+        "optional": [],
+        "fallback": "Perform a static SwiftUI performance review and provide exact Instruments or simulator commands for a macOS handoff."
+      },
+      "dependencies": ["swiftui-design-engineering", "xcode-build-reliability"],
+      "related": ["swift-concurrency-safety", "swift-testing"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "craft",
+      "version": "1.0.0",
+      "tags": ["ios", "swiftui", "instruments", "performance", "memory", "debugging"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/xcode/understanding-and-improving-swiftui-performance",
+        "https://developer.apple.com/documentation/technologyoverviews/testing-and-performance",
+        "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 45,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "low"
+    },
+    {
+      "name": "swift-concurrency-safety",
+      "displayName": "Swift Concurrency Safety",
+      "type": "workflow",
+      "domains": ["implementation", "systems"],
+      "lifecycle": ["define", "deliver", "validate"],
+      "actions": ["create", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["swift-concurrency-safety"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Review isolation and Sendable boundaries statically, then disclose that compiler verification was not available."
+      },
+      "dependencies": [],
+      "related": ["swift-testing", "swiftdata-persistence"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "generate",
+      "version": "1.0.0",
+      "tags": ["swift", "concurrency", "actors", "sendable", "swift-6", "data-races"],
+      "sourceUrls": [
+        "https://www.swift.org/migration/",
+        "https://www.swift.org/documentation/",
+        "https://github.com/twostraws/Swift-Concurrency-Agent-Skill"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 60,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "medium"
+    },
+    {
+      "name": "swift-testing",
+      "displayName": "Swift Testing",
+      "type": "workflow",
+      "domains": ["implementation"],
+      "lifecycle": ["validate"],
+      "actions": ["create", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["swift-testing"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Author the test plan and test source, then mark execution as pending on a Swift or Xcode toolchain."
+      },
+      "dependencies": [],
+      "related": ["xcode-build-reliability", "swift-concurrency-safety"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "generate",
+      "version": "1.0.0",
+      "tags": ["swift", "testing", "xctest", "xcuitest", "parameterized-tests", "test-plan"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/xcode/testing",
+        "https://developer.apple.com/documentation/testing",
+        "https://www.swift.org/documentation/"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 60,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "medium"
+    },
+    {
+      "name": "swiftdata-persistence",
+      "displayName": "SwiftData Persistence",
+      "type": "workflow",
+      "domains": ["implementation", "systems"],
+      "lifecycle": ["define", "deliver", "validate"],
+      "actions": ["create", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["swiftdata-persistence"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Produce the schema, migration, isolation, and test plan without claiming runtime persistence proof."
+      },
+      "dependencies": ["swift-concurrency-safety"],
+      "related": ["swift-testing", "swiftui-design-engineering"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "generate",
+      "version": "1.0.0",
+      "tags": ["swiftdata", "persistence", "migration", "cloudkit", "schema", "offline"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/swiftdata",
+        "https://developer.apple.com/documentation/updates/swiftdata"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 45,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "medium"
+    },
+    {
+      "name": "swiftui-design-engineering",
+      "displayName": "SwiftUI Design Engineering",
+      "type": "workflow",
+      "domains": ["product", "interaction", "visual", "implementation", "accessibility"],
+      "lifecycle": ["define", "design", "deliver", "validate"],
+      "actions": ["create", "audit", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["swiftui-design-engineering"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Produce source and a verification receipt that explicitly marks build, preview, and simulator checks unavailable."
+      },
+      "dependencies": [],
+      "related": ["swiftui-liquid-glass", "ios-performance-debugging", "mobile-craft"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "craft",
+      "version": "1.0.0",
+      "tags": ["swiftui", "ios", "design-system", "accessibility", "navigation", "state"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/swiftui",
+        "https://developer.apple.com/design/human-interface-guidelines/",
+        "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/swiftui-ui-patterns",
+        "https://github.com/twostraws/swiftui-agent-skill"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 45,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "medium"
+    },
+    {
+      "name": "swiftui-liquid-glass",
+      "displayName": "SwiftUI Liquid Glass",
+      "type": "workflow",
+      "domains": ["interaction", "visual", "implementation", "accessibility"],
+      "lifecycle": ["design", "deliver", "validate"],
+      "actions": ["create", "audit", "review"],
+      "surfaces": ["ios", "code"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["swiftui-liquid-glass"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": ["xcode.cli"],
+        "fallback": "Review availability, hierarchy, and fallback code statically and defer rendering proof to a compatible simulator."
+      },
+      "dependencies": ["swiftui-design-engineering"],
+      "related": ["apple-design", "ios-performance-debugging"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "craft",
+      "version": "1.0.0",
+      "tags": ["swiftui", "liquid-glass", "ios-26", "materials", "accessibility", "performance"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/swiftui/glasseffectcontainer",
+        "https://developer.apple.com/documentation/technologyoverviews/adopting-liquid-glass",
+        "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/swiftui-liquid-glass"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 30,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
+      "freedomLevel": "medium"
+    },
+    {
+      "name": "xcode-build-reliability",
+      "displayName": "Xcode Build Reliability",
+      "type": "workflow",
+      "domains": ["implementation", "agent-ops"],
+      "lifecycle": ["deliver", "validate", "operate"],
+      "actions": ["integrate", "operate", "review"],
+      "surfaces": ["ios", "code", "agent-runtime"],
+      "maturity": "stable",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": ["xcode-build-reliability"],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "capability-gated",
+        "requires": ["xcode.cli"],
+        "optional": [],
+        "fallback": "Generate the build contract and CI commands, then hand execution to a macOS runner with Xcode installed."
+      },
+      "dependencies": [],
+      "related": ["swift-testing", "ios-performance-debugging"],
+      "collectionIds": ["ios-swift"],
+      "legacyCategory": "connect",
+      "version": "1.0.0",
+      "tags": ["xcode", "xcodebuild", "xcbeautify", "simulator", "ci", "build-times"],
+      "sourceUrls": [
+        "https://developer.apple.com/documentation/xcode/building-and-running-an-app",
+        "https://developer.apple.com/documentation/xcode/testing",
+        "https://github.com/cpisciotta/xcbeautify"
+      ],
+      "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+      "freshnessDays": 45,
+      "engines": {"memoire": ">=2.6.0"},
+      "createdAt": "2026-07-17T00:00:00.000Z",
+      "updatedAt": "2026-07-17T00:00:00.000Z",
       "freedomLevel": "low"
     }
   ]

@@ -1,0 +1,36 @@
+{
+  "name": "xcode-build-reliability",
+  "version": "1.0.0",
+  "description": "Make Xcode builds agent-verifiable with deterministic scheme discovery, concise logs, explicit destinations, stable scripts, build-time evidence, and CI parity.",
+  "author": "Sarvesh Chidambaram",
+  "category": "connect",
+  "tags": [
+    "xcode",
+    "xcodebuild",
+    "xcbeautify",
+    "simulator",
+    "ci",
+    "build-times"
+  ],
+  "sourceUrls": [
+    "https://developer.apple.com/documentation/xcode/building-and-running-an-app",
+    "https://developer.apple.com/documentation/xcode/testing",
+    "https://github.com/cpisciotta/xcbeautify"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 45,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Xcode Build Reliability",
+      "activateOn": "xcode-build-reliability",
+      "freedomLevel": "low"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

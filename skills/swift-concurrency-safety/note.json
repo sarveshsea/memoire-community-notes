@@ -1,0 +1,36 @@
+{
+  "name": "swift-concurrency-safety",
+  "version": "1.0.0",
+  "description": "Design and review Swift 6 concurrency boundaries using structured tasks, actors, Sendable values, cancellation, and compiler-backed data-race safety.",
+  "author": "Sarvesh Chidambaram",
+  "category": "generate",
+  "tags": [
+    "swift",
+    "concurrency",
+    "actors",
+    "sendable",
+    "swift-6",
+    "data-races"
+  ],
+  "sourceUrls": [
+    "https://www.swift.org/migration/",
+    "https://www.swift.org/documentation/",
+    "https://github.com/twostraws/Swift-Concurrency-Agent-Skill"
+  ],
+  "lastResearchedAt": "2026-07-17T00:00:00.000Z",
+  "freshnessDays": 60,
+  "skills": [
+    {
+      "file": "SKILL.md",
+      "name": "Swift Concurrency Safety",
+      "activateOn": "swift-concurrency-safety",
+      "freedomLevel": "medium"
+    }
+  ],
+  "dependencies": [],
+  "engines": {
+    "memoire": ">=2.6.0"
+  },
+  "createdAt": "2026-07-17T00:00:00.000Z",
+  "updatedAt": "2026-07-17T00:00:00.000Z"
+}

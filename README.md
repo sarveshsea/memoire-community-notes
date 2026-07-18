@@ -27,6 +27,7 @@ Install only the workflow you need:
 ```bash
 npx skills@1.5.17 add sarveshsea/design-skills --skill better-ui
 npx skills@1.5.17 add sarveshsea/design-skills --skill accessibility-audit
+npx skills@1.5.17 add sarveshsea/design-skills --skill swiftui-design-engineering
 ```
 
 Installing the repository without `--skill` may offer or install the entire discoverable corpus, including integration-specific and internal compatibility payloads. Review [`catalog.json`](catalog.json) first. The upstream Skills CLI does not currently implement this repository's collection manifests as an installation primitive.
@@ -57,6 +58,7 @@ Collections are curated navigation and policy manifests under `registry/collecti
 | `design-systems` | 5 | Optional | Tokens, components, governance, and system architecture. |
 | `figma` | 15 | Optional | Capability-gated Figma workflows. |
 | `implementation` | 7 | Optional | Framework and design-to-code generation workflows. |
+| `ios-swift` | 8 | Optional | Design, build, test, profile, and ship current SwiftUI applications with agent-verifiable workflows. |
 | `memoire-operations` | 19 | Internal/optional | Mémoire-specific and agent-runtime operations. |
 | `motion-video` | 10 | Optional | Interaction motion, animation review, and product video workflows. |
 | `product-design` | 49 | Optional | Interface craft, product thinking, and design validation workflows. |
@@ -92,6 +94,10 @@ Explicit installation of a historical slug continues to work during the compatib
 | Plan motion improvements | [`improve-animations`](skills/improve-animations/SKILL.md) |
 | Synthesize research | [`data-synthesis`](skills/data-synthesis/SKILL.md) |
 | Work through Mémoire | [`memoire-design-tooling`](skills/memoire-design-tooling/SKILL.md) |
+| Build or review SwiftUI | [`swiftui-design-engineering`](skills/swiftui-design-engineering/SKILL.md) |
+| Adopt Liquid Glass | [`swiftui-liquid-glass`](skills/swiftui-liquid-glass/SKILL.md) |
+| Fix Swift 6 concurrency | [`swift-concurrency-safety`](skills/swift-concurrency-safety/SKILL.md) |
+| Stabilize Xcode builds | [`xcode-build-reliability`](skills/xcode-build-reliability/SKILL.md) |
 
 ## Provenance and trust
 

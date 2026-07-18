@@ -134,7 +134,15 @@
         "figma-plugin-api",
         "information-architecture",
         "interaction-design",
-        "product-discovery-and-framing"
+        "ios-app-intents",
+        "ios-performance-debugging",
+        "product-discovery-and-framing",
+        "swift-concurrency-safety",
+        "swift-testing",
+        "swiftdata-persistence",
+        "swiftui-design-engineering",
+        "swiftui-liquid-glass",
+        "xcode-build-reliability"
       ]
     }
   },
@@ -153,6 +161,14 @@
       "terms": "Figma Developer Terms",
       "relationship": "official-resource-link-only",
       "retrievedAt": "2026-07-15T00:00:00.000Z"
+    },
+    "openai-build-ios-apps": {
+      "organization": "OpenAI",
+      "repository": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+      "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+      "terms": "Repository license and terms",
+      "relationship": "official-resource-link-only",
+      "retrievedAt": "2026-07-17T00:00:00.000Z"
     }
   },
   "referenceClaims": [
@@ -169,6 +185,17 @@
       ],
       "relationship": "link-only-router",
       "contentScope": "Official URLs and current integration routing only. No upstream workflow prose, references, or scripts are redistributed."
+    },
+    {
+      "sourceId": "openai-build-ios-apps",
+      "skills": [
+        "ios-app-intents",
+        "ios-performance-debugging",
+        "swiftui-design-engineering",
+        "swiftui-liquid-glass"
+      ],
+      "relationship": "link-only-router",
+      "contentScope": "Memi supplies design-CI routing and points Codex users to OpenAI's first-party implementation and debugger skills when installed."
     }
   ]
 }

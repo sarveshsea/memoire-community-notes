@@ -43,6 +43,33 @@ test("catalog spans the complete design lifecycle", async () => {
   assert.deepEqual([...stages].sort(), ["define", "deliver", "design", "discover", "measure", "operate", "prototype", "validate"]);
 });
 
+test("iOS and Swift collection exposes the complete agent build loop", async () => {
+  const registry = await readJson("registry/skills.json");
+  const collection = await readJson("registry/collections/ios-swift.json");
+  const byName = new Map(registry.skills.map((entry) => [entry.name, entry]));
+  const expected = [
+    "ios-app-intents",
+    "ios-performance-debugging",
+    "swift-concurrency-safety",
+    "swift-testing",
+    "swiftdata-persistence",
+    "swiftui-design-engineering",
+    "swiftui-liquid-glass",
+    "xcode-build-reliability",
+  ];
+
+  assert.deepEqual(collection.include, expected);
+  for (const name of expected) {
+    const entry = byName.get(name);
+    assert.ok(entry, `${name} is registered`);
+    assert.equal(entry.visibility, "public", name);
+    assert.equal(entry.status, "canonical", name);
+    assert.ok(entry.surfaces.includes("ios"), name);
+    assert.ok(entry.collectionIds.includes("ios-swift"), name);
+    assert.ok(entry.sourceUrls.some((url) => url.startsWith("https://developer.apple.com/") || url.startsWith("https://www.swift.org/")), name);
+  }
+});
+
 test("link-only Figma routers preserve local authorship and official references", async () => {
   const catalog = await readJson("catalog.json");
   const registry = await readJson("registry/skills.json");

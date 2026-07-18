@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
   "skills": [
     {
       "name": "accessibility-audit",
@@ -524,11 +524,14 @@
         "fallback": "Use user-supplied artifacts and document any unavailable verification."
       },
       "dependencies": [],
-      "related": [],
+      "related": [
+        "swiftui-design-engineering",
+        "swiftui-liquid-glass"
+      ],
       "collectionIds": [
         "product-design"
       ],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "craft",
       "tags": [
         "craft",
@@ -3379,6 +3382,166 @@
       "path": "skills/interview-research"
     },
     {
+      "name": "ios-app-intents",
+      "displayName": "iOS App Intents",
+      "description": "Design, implement, and verify App Intents, App Entities, App Shortcuts, widgets, Siri, Spotlight, and Apple Intelligence surfaces with stable identity and safe execution.",
+      "type": "workflow",
+      "lifecycle": [
+        "define",
+        "deliver",
+        "validate"
+      ],
+      "domains": [
+        "implementation",
+        "interaction",
+        "accessibility"
+      ],
+      "actions": [
+        "create",
+        "integrate",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "low",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "ios-app-intents"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Produce the intent contract and verification commands, then mark simulator and system-surface proof unavailable."
+      },
+      "dependencies": [
+        "swift-concurrency-safety"
+      ],
+      "related": [
+        "swiftui-design-engineering",
+        "swift-testing"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "generate",
+      "tags": [
+        "ios",
+        "app-intents",
+        "shortcuts",
+        "siri",
+        "widgets",
+        "spotlight"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "officialReferences": [
+        {
+          "sourceId": "openai-build-ios-apps",
+          "organization": "OpenAI",
+          "repository": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+          "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+          "relationship": "link-only-router"
+        }
+      ],
+      "path": "skills/ios-app-intents"
+    },
+    {
+      "name": "ios-performance-debugging",
+      "displayName": "iOS Performance Debugging",
+      "description": "Diagnose SwiftUI rendering, launch, responsiveness, concurrency, memory, energy, and simulator failures using reproducible traces and before-after evidence.",
+      "type": "workflow",
+      "lifecycle": [
+        "validate",
+        "measure"
+      ],
+      "domains": [
+        "implementation",
+        "systems"
+      ],
+      "actions": [
+        "analyze",
+        "audit"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "low",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "ios-performance-debugging"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "capability-gated",
+        "requires": [
+          "xcode.cli"
+        ],
+        "optional": [],
+        "fallback": "Perform a static SwiftUI performance review and provide exact Instruments or simulator commands for a macOS handoff."
+      },
+      "dependencies": [
+        "swiftui-design-engineering",
+        "xcode-build-reliability"
+      ],
+      "related": [
+        "swift-concurrency-safety",
+        "swift-testing"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "craft",
+      "tags": [
+        "ios",
+        "swiftui",
+        "instruments",
+        "performance",
+        "memory",
+        "debugging"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "officialReferences": [
+        {
+          "sourceId": "openai-build-ios-apps",
+          "organization": "OpenAI",
+          "repository": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+          "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+          "relationship": "link-only-router"
+        }
+      ],
+      "path": "skills/ios-performance-debugging"
+    },
+    {
       "name": "linear-sync",
       "displayName": "Linear Sync",
       "description": "Linear integration for Mémoire — sync design issues, component specs, and project tracking between Linear and the Mémoire registry",
@@ -3835,7 +3998,9 @@
         "create"
       ],
       "surfaces": [
-        "web"
+        "web",
+        "ios",
+        "android"
       ],
       "maturity": "stable",
       "freedomLevel": "medium",
@@ -3855,11 +4020,15 @@
         "fallback": "Use user-supplied artifacts and document any unavailable verification."
       },
       "dependencies": [],
-      "related": [],
+      "related": [
+        "swiftui-design-engineering",
+        "react-native-gen",
+        "flutter-gen"
+      ],
       "collectionIds": [
         "product-design"
       ],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "craft",
       "tags": [
         "mobile",
@@ -4764,6 +4933,374 @@
       "path": "skills/survey-connect"
     },
     {
+      "name": "swift-concurrency-safety",
+      "displayName": "Swift Concurrency Safety",
+      "description": "Design and review Swift 6 concurrency boundaries using structured tasks, actors, Sendable values, cancellation, and compiler-backed data-race safety.",
+      "type": "workflow",
+      "lifecycle": [
+        "define",
+        "deliver",
+        "validate"
+      ],
+      "domains": [
+        "implementation",
+        "systems"
+      ],
+      "actions": [
+        "create",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "medium",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "swift-concurrency-safety"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Review isolation and Sendable boundaries statically, then disclose that compiler verification was not available."
+      },
+      "dependencies": [],
+      "related": [
+        "swift-testing",
+        "swiftdata-persistence"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "generate",
+      "tags": [
+        "swift",
+        "concurrency",
+        "actors",
+        "sendable",
+        "swift-6",
+        "data-races"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "path": "skills/swift-concurrency-safety"
+    },
+    {
+      "name": "swift-testing",
+      "displayName": "Swift Testing",
+      "description": "Build an Apple-platform test strategy with Swift Testing for unit and integration coverage, XCTest for UI automation, deterministic fixtures, and concise agent-readable results.",
+      "type": "workflow",
+      "lifecycle": [
+        "validate"
+      ],
+      "domains": [
+        "implementation"
+      ],
+      "actions": [
+        "create",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "medium",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "swift-testing"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Author the test plan and test source, then mark execution as pending on a Swift or Xcode toolchain."
+      },
+      "dependencies": [],
+      "related": [
+        "xcode-build-reliability",
+        "swift-concurrency-safety"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "generate",
+      "tags": [
+        "swift",
+        "testing",
+        "xctest",
+        "xcuitest",
+        "parameterized-tests",
+        "test-plan"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "path": "skills/swift-testing"
+    },
+    {
+      "name": "swiftdata-persistence",
+      "displayName": "SwiftData Persistence",
+      "description": "Design and review SwiftData schemas, queries, migrations, isolation, CloudKit assumptions, offline behavior, and deterministic persistence tests.",
+      "type": "workflow",
+      "lifecycle": [
+        "define",
+        "deliver",
+        "validate"
+      ],
+      "domains": [
+        "implementation",
+        "systems"
+      ],
+      "actions": [
+        "create",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "medium",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "swiftdata-persistence"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Produce the schema, migration, isolation, and test plan without claiming runtime persistence proof."
+      },
+      "dependencies": [
+        "swift-concurrency-safety"
+      ],
+      "related": [
+        "swift-testing",
+        "swiftui-design-engineering"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "generate",
+      "tags": [
+        "swiftdata",
+        "persistence",
+        "migration",
+        "cloudkit",
+        "schema",
+        "offline"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "path": "skills/swiftdata-persistence"
+    },
+    {
+      "name": "swiftui-design-engineering",
+      "displayName": "SwiftUI Design Engineering",
+      "description": "Design, build, refactor, and review production SwiftUI interfaces with explicit state ownership, navigation, accessibility, design tokens, previews, and simulator verification.",
+      "type": "workflow",
+      "lifecycle": [
+        "define",
+        "design",
+        "deliver",
+        "validate"
+      ],
+      "domains": [
+        "product",
+        "interaction",
+        "visual",
+        "implementation",
+        "accessibility"
+      ],
+      "actions": [
+        "create",
+        "audit",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "medium",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "swiftui-design-engineering"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Produce source and a verification receipt that explicitly marks build, preview, and simulator checks unavailable."
+      },
+      "dependencies": [],
+      "related": [
+        "swiftui-liquid-glass",
+        "ios-performance-debugging",
+        "mobile-craft"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "craft",
+      "tags": [
+        "swiftui",
+        "ios",
+        "design-system",
+        "accessibility",
+        "navigation",
+        "state"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "officialReferences": [
+        {
+          "sourceId": "openai-build-ios-apps",
+          "organization": "OpenAI",
+          "repository": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+          "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+          "relationship": "link-only-router"
+        }
+      ],
+      "path": "skills/swiftui-design-engineering"
+    },
+    {
+      "name": "swiftui-liquid-glass",
+      "displayName": "SwiftUI Liquid Glass",
+      "description": "Adopt or audit iOS 26+ SwiftUI Liquid Glass with native APIs, correct availability fallbacks, restrained hierarchy, accessibility, and measured rendering performance.",
+      "type": "workflow",
+      "lifecycle": [
+        "design",
+        "deliver",
+        "validate"
+      ],
+      "domains": [
+        "interaction",
+        "visual",
+        "implementation",
+        "accessibility"
+      ],
+      "actions": [
+        "create",
+        "audit",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "medium",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "swiftui-liquid-glass"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "portable",
+        "requires": [],
+        "optional": [
+          "xcode.cli"
+        ],
+        "fallback": "Review availability, hierarchy, and fallback code statically and defer rendering proof to a compatible simulator."
+      },
+      "dependencies": [
+        "swiftui-design-engineering"
+      ],
+      "related": [
+        "apple-design",
+        "ios-performance-debugging"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "craft",
+      "tags": [
+        "swiftui",
+        "liquid-glass",
+        "ios-26",
+        "materials",
+        "accessibility",
+        "performance"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "officialReferences": [
+        {
+          "sourceId": "openai-build-ios-apps",
+          "organization": "OpenAI",
+          "repository": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+          "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+          "relationship": "link-only-router"
+        }
+      ],
+      "path": "skills/swiftui-liquid-glass"
+    },
+    {
       "name": "token-architecture",
       "displayName": "Token Architecture",
       "description": "Design token architecture — multi-tier token systems, semantic naming, theme switching, CSS custom properties, Tailwind mapping, and Figma variable sync",
@@ -5121,6 +5658,76 @@
       "upstreamCommit": "0fcc01ceb630e623c1cfe1adae04ddcf0da6a43e",
       "relationship": "first-party",
       "path": "skills/website-to-video"
+    },
+    {
+      "name": "xcode-build-reliability",
+      "displayName": "Xcode Build Reliability",
+      "description": "Make Xcode builds agent-verifiable with deterministic scheme discovery, concise logs, explicit destinations, stable scripts, build-time evidence, and CI parity.",
+      "type": "workflow",
+      "lifecycle": [
+        "deliver",
+        "validate",
+        "operate"
+      ],
+      "domains": [
+        "implementation",
+        "agent-ops"
+      ],
+      "actions": [
+        "integrate",
+        "operate",
+        "review"
+      ],
+      "surfaces": [
+        "ios",
+        "code",
+        "agent-runtime"
+      ],
+      "maturity": "stable",
+      "freedomLevel": "low",
+      "visibility": "public",
+      "status": "canonical",
+      "routing": {
+        "intents": [
+          "xcode-build-reliability"
+        ],
+        "role": "primary",
+        "excludes": []
+      },
+      "runtime": {
+        "portability": "capability-gated",
+        "requires": [
+          "xcode.cli"
+        ],
+        "optional": [],
+        "fallback": "Generate the build contract and CI commands, then hand execution to a macOS runner with Xcode installed."
+      },
+      "dependencies": [],
+      "related": [
+        "swift-testing",
+        "ios-performance-debugging"
+      ],
+      "collectionIds": [
+        "ios-swift"
+      ],
+      "version": "1.0.0",
+      "category": "connect",
+      "tags": [
+        "xcode",
+        "xcodebuild",
+        "xcbeautify",
+        "simulator",
+        "ci",
+        "build-times"
+      ],
+      "origin": "design-skills-first-party",
+      "author": "Sarvesh Chidambaram",
+      "license": "MIT",
+      "source": "https://github.com/sarveshsea/design-skills",
+      "sourceRevision": "repository-local",
+      "upstreamCommit": null,
+      "relationship": "first-party-in-repository",
+      "path": "skills/xcode-build-reliability"
     }
   ]
 }
